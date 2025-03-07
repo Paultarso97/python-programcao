@@ -1,0 +1,43 @@
+Este é um programa simples de gerenciamento de dados usando Python, SQLite e Tkinter.
+Ele permite cadastrar, visualizar, editar e excluir registros de usuários,
+calculando a necessidade calórica diária com base em parâmetros como peso, altura, idade, sexo, nível de atividade física e objetivo.
+
+Funcionalidades:
+Cadastro de Usuários: Insere novos registros no banco de dados SQLite.
+Cálculo da Taxa Metabólica Basal (TMB): Calcula a necessidade calórica diária com base nos dados informados.
+Exibição de Dados: Mostra os registros cadastrados em uma tabela interativa.
+Edição de Registros: Permite modificar um registro existente sem criar uma nova entrada.
+Exclusão de Registros: (Em desenvolvimento) opção para remover registros do banco de dados.
+
+Tecnologias Utilizadas:
+Python
+Bibliotecas Python
+SQLite (Banco de dados embutido)
+Tkinter (Interface gráfica)
+ttk.Treeview (Exibição de tabela interativa)
+
+Como Usar:
+Execute o script Python.
+Insira os dados nos campos de entrada.
+Clique em "Salvar" para adicionar o registro ao banco de dados.
+Para editar um registro:
+Selecione um item na tabela.
+Clique em "Editar" e modifique os campos desejados.
+Clique em "Salvar Edição" para atualizar o registro.
+Para excluir (futuramente), selecione um registro e clique em "Apagar".
+
+Estrutura do Banco de Dados:
+A tabela dado contém os seguintes campos:
+id (INTEGER, chave primária, autoincremento)
+nome (TEXT, não nulo)
+idade (INTEGER)
+peso (REAL)
+altura (REAL)
+sexo (TEXT)
+objetivo (TEXT)
+atividade (TEXT)
+calorias (REAL, calculado automaticamente)
+
+
+
+Este projeto foi desenvolvido por Paulo de Tarso dos Santos Maria. Caso tenha dúvidas ou sugestões, entre em contato!
